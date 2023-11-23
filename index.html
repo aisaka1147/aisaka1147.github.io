@@ -4,62 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学生登録ホーム</title>
+    <title>web漫画サイト</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>学生登録ホーム</h1>
-    <p>すべてのフィールドを入力してください。</p>
-    <fieldset>
-        <legend>個人情報</legend>
-<table border="1">
+    <header>
+<h1>web漫画サイト</h1>
+<h2>このサイトでは私の好きな漫画を紹介しています。<br><br></h2>
+<nav>
+    <ul>
+        <li><a href="kadai1.html">ジョジョの奇妙な冒険</a></li>
+        <li><a href="kadai1-1.html">となりの怪物くん </a></li>
+        <li><a href="kadai1-2.html">銀魂</a></li>
+    </ul>
+</nav>
+    </header>
+    <div style="text-align: center">
+<img src="images/manga.png"alt="web漫画サイト紹介">
+    </div>
+    
+<table border="1" class="ez">
     <tr>
-        <td><label for="">学生番号</label></td>
-        <td><input type="text" placeholder="20122035"></td>
-        <td><label for="">見</label></td>
-        <td><select>
-            <option>新潟県</option>
-            <option>長野県</option>
-            <option>宮城県</option>
-            </select> </td>
+        <th>タイトル</th>
+        <th>現時点で出ている巻数</th>
     </tr>
     <tr>
-        <td><label for="">住所</label></td>
-        <td colspan="3"><input type="text" placeholder="example@xxx.com" ></td>
+        <td>ジョジョの奇妙な冒険</td>
+        <td>131</td>
     </tr>
     <tr>
-        <td><label for="">電話番号</label></td>
-        <td colspan="3"><input type="text" placeholder="(025)-111-1234"></td>
-    </tr>    
+        <td>となりの怪物くん</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>銀魂</td>
+    <td>77</td>
+    </tr>
 </table>
-<label for="">性別</label>
-<input type="radio" name="g"> 男
-<input type="radio" name="g"> 女
-<input type="radio" > 他
- </fieldset>
- <fieldset>
-    <p>学びたいことをチェックしてください。</p>
-    <input type="checkbox"> HTML
-    <input type="checkbox"> CSS
-    <input type="checkbox"> JavaScript
-    <input type="chexkbox"> AJAX
-</fieldset>
-<fieldset></fieldset>
-<select>
-    <option> 1年生</option>
-    <option> 2年生</option>
-    <option> 3年生</option>
-    <option> 4年生</option>
-</select>
-</fieldset>
-<fieldset>
-    <legend>理由</legend>
-    <p>この大学に入学したい理由を50字以内で記入してください。</p>
-    <textarae name="" id="" cols="50" rows="3"></textarae>
-    <p>証明書をここにアップロードしてください。</p>
-    <input type="file">
-    </fieldset>
-<input type="button" value="Submit">
+<section class="one"> 
+<h2>サイトをより良くするためのご協力のお願い</h2>
+<dl>
+    <dt>あなたのおすすめの漫画を1つ教えてください :</dt>
+    <dd><input type="text"></dd>
+</dl>
+</section>
 
-
+    <footer>webmangasyoukai.com </footer>
 </body>
 </html>
