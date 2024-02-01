@@ -6,6 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     musicButton.addEventListener('click', function () {
         // ここで次のページに遷移する処理を追加
         // 例: window.location.href = '次のページのURL';
-        window.location.href = 'index.html'; // URLは適切なものに置き換えてください
+        window.location.href = 'music.html'; // URLは適切なものに置き換えてください
     });
 });
